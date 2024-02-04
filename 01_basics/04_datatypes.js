@@ -25,3 +25,24 @@ function myfunction()
 {
     console.log("hello world")
 }
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\
+
+// stack (primitive), heap (non primitive)
+
+let myname = "shubham"
+
+let secondname = myname
+secondname = "hitesh"
+//console.log(myname)
+//console.log(secondname);
+
+let userone= {
+    email: "shubham.com",
+    password: "singhl"
+}
+let usertwo = userone
+usertwo.email = "shubhamgoole.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
